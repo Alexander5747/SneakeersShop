@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 9%;
+    margin-bottom: 4%;
+}
+.logo{
+    flex-grow: 6;
+    font-size: 2em;
+}
+.header__wraper{
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__button{
+    display: flex;    
+}
+.button__image{
+    margin-right: 6px;
+}
+.topBlock{
+    display: flex;
+    justify-content: center;
+}
+.topBlock__content{
+    padding: 24px;
+}
+.topBlock__title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Human{
+    font-weight: bold;
+    color: #8BB43C;
+}
+.Buy{
+    background: #A5D364;
+    border: none;
+    padding: 14px 42px;
+    border-radius: 110px;
+    color: #ffff;
+    cursor: pointer;
+}
