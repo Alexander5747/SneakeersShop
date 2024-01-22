@@ -8,6 +8,10 @@
     font-style: normal;
     font-variation-settings: "slnt" 0;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -23,15 +27,17 @@
 .logo a{
     color:black;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    margin-right: 16px;
 }
 .header__wrapper{
     flex-grow: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header__button{
-    display: flex;
 }
 .button__image{
     margin-right: 6px;
@@ -75,6 +81,9 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 26px;
+}
+.sneakersCatalog__title{
+    font-weight: bold;
 }
 .sneakersCatalog__search{
     display: flex;
@@ -139,3 +148,89 @@
     border-radius: 6px;
     cursor: pointer;
 }
+.l1{
+    display: flex;
+}
+.l1.none{
+    display: none;
+}
+.basketSidebar{
+    z-index: 2;
+    width: 469px;
+    height: 1622px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:0;
+    background: white;
+    padding: 24px 36px;
+}
+.fon{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 1622px;
+    z-index: 2;
+    position: absolute;
+}
+.basketSidebar__sneakers{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d8d8d8;
+    border-radius: 22px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.basketSidebar__title{
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+.basketSidebar__image img{
+    width: 132px;
+    height: 122px;
+    margin-right: 21px;
+}
+.basketSidebar__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.basketSidebar__text{
+    margin-bottom: 16px;
+}
+.basketSidebar__price{
+    font-weight: bold;
+}
+.basketSidebar__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.basketSidebar__button{
+    padding: 10px 12px;
+    background: none;
+    border: 1px solid #d8d8d8;
+    border-radius:9px;
+    cursor: pointer;
+}
+.total, .tax{
+    margin-bottom: 16px;
+}
+.total__numbers, .tax__numbers{
+    font-weight: bold;
+}
+.basketSidebar__Checkout{
+    color: #ffff;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 10px;
+    background: #A5D364;
+}
+.union__wrapper{
+    padding: 0 12%;
+}
+.union__title{
+    font-weight: bold;
+}
+.union__button{}
