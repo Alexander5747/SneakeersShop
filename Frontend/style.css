@@ -13,27 +13,41 @@
     justify-content: space-between;
     padding: 2% 9%;
     margin-bottom: 4%;
+    border-bottom: 1px solid #d8d8d8;
 }
 .logo{
     flex-grow: 6;
     font-size: 2em;
+    font-weight: bold;
 }
-.header__wraper{
+.logo a{
+    color:black;
+    text-decoration: none;
+}
+.header__wrapper{
     flex-grow: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .header__button{
-    display: flex;    
+    display: flex;
 }
 .button__image{
     margin-right: 6px;
 }
+.wrapper__main{
+    padding: 0 9%;
+}
 .topBlock{
     display: flex;
     justify-content: center;
+    margin-bottom: 4%;
+}
+.topBlock__wrapper{
+    background: #F4EFE9;
+    border-radius: 12px 0 0 12px ;
+    padding: 12px;
 }
 .topBlock__content{
     padding: 24px;
@@ -52,5 +66,76 @@
     padding: 14px 42px;
     border-radius: 110px;
     color: #ffff;
+    cursor: pointer;
+}
+.image img{
+    height: 100%;
+}
+.sneakersCatalog__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+.sneakersCatalog__search{
+    display: flex;
+    align-items: center;
+}
+.sneakersCatalog__search input{
+    border: 1px solid #d8d8d8;
+    padding: 12px;
+    border-radius: 10px;
+}
+.sneakersCatalog__search input::placeholder{
+    color: #d8d8d8;
+}
+.sneakersCatalog__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sneakersCatalog__card{
+    border: 1px solid #d8d8d8;
+    border-radius: 40px;
+    padding: 29px;
+    margin-bottom: 42px;
+}
+.sneakersCatalog__addBookmarks{
+    background: none;
+    border: 1px solid #d8d8d8;
+    display: flex;
+    padding: 9px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.sneakersCatalog__image{
+    text-align: center;
+}
+.sneakersCatalog__image img{
+    width: 132px;
+    height: 122px;
+}
+.sneakersCatalog__name{
+    width: 176px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.sneakersCatalog__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    color: #d8d8d8;
+    font-weight: 500;
+}
+.numbers{
+    font-weight: bold;
+}
+.sneakersCatalog__button{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: none;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
     cursor: pointer;
 }
