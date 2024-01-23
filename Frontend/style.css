@@ -230,7 +230,26 @@ a{
 .union__wrapper{
     padding: 0 12%;
 }
+.union__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.union__btn{
+    margin-right: 19px;
+}
 .union__title{
     font-weight: bold;
 }
-.union__button{}
+.union__back{
+    display: flex;
+    padding: 10px 12px;
+    border-radius: 9px;
+    background: none;
+    border: 1px solid #d8d8d8;
+}
+.union__main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
