@@ -1,6 +1,8 @@
 <?php
 
-class Connection
+namespace Core;
+
+class Model
 {
     private $host = 'localhost';
     private $user = 'root';
