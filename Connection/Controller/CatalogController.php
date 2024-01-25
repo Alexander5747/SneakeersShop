@@ -14,4 +14,12 @@ class CatalogController
     {
          return $this->catalog->getProduct();
     }
+    public function  addBasket($id, $name, $price, $image)
+    {
+        $this->catalog->createRecordBasket($id, $name, $price, $image);
+    }
+    public function  addBookmarks($id, $name, $price, $image)
+    {
+        $this->catalog->createRecordBookmarks($id, $name, $price, $image);
+    }
 }

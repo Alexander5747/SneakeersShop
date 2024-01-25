@@ -17,8 +17,6 @@ class CatalogView
 }
 ?>
     <?php
-    mb_internal_encoding('UTF-8');
-    $json = file_get_contents('php://input');
     $catalogView = new CatalogView();
     $result = $catalogView->getCatalogController();
     $resJson = json_encode($result);
